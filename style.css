@@ -3,12 +3,22 @@
     background-image: url('images/clement.jpg');
     text-align: center;
     background-position-x: center;
-    background-position-y: 10%;
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    #banner {
+        background-size: auto;
+    }
+
+    #banner h1 {
+        margin-top: 0;
+    }
 }
 
 #banner h1 {
-    font-size: 64px;
+    font-size: 3em;
     color: #fff;
     text-shadow:
             3px 3px 0 #000,
