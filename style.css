@@ -72,10 +72,3 @@
 .center-text {
     text-align: center;
 }
-
-.checkered-box {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 4px dashed #9b9b9b;
-    padding-bottom: 10px;
-}
