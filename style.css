@@ -10,6 +10,8 @@
 @media (max-width: 767px) {
     #banner {
         background-size: auto;
+        background-position-y: 48%
+
     }
 
     #banner h1.bold-header {
@@ -28,8 +30,8 @@
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 10px;
     font-weight: 800;
     z-index: 1;
     position: relative;
