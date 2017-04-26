@@ -74,3 +74,28 @@
 .center-text {
     text-align: center;
 }
+
+.nav li a {
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    min-height: inherit;
+}
+
+#grow #navbar li {
+    margin-bottom: 0;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.navbar-nav {
+    margin: 0;
+}
