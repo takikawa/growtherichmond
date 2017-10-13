@@ -18,7 +18,19 @@
         margin-top: 0;
         font-size: 50px;
     }
+    #obama-quote {
+        padding-top: 10px;
+    }
+
 }
+
+@media (min-width: 767px) {
+    #obama-quote {
+        padding-top: 100px;
+    }
+}
+
+
 
 #banner h1 {
     font-size: 80px;
@@ -99,3 +111,4 @@ nav.navbar {
 .navbar-nav {
     margin: 0;
 }
+
