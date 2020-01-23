@@ -1,4 +1,4 @@
-#banner {
+.banner {
     background-image: url('images/clement.jpg');
     text-align: center;
     background-position-x: center;
@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 767px) {
-    #banner {
+    .banner {
         background-size: auto;
         background-position-y: 48%
 
     }
 
-    #banner h1.bold-header {
+    .banner h1.bold-header {
         margin-top: 0;
         font-size: 50px;
     }
@@ -30,12 +30,20 @@
     }
 }
 
-#banner {
+.banner {
     padding: 0;
+}
+
+#banner-top {
     margin-bottom: 40px;
 }
 
-#banner h1 {
+#banner-bottom {
+    margin-top: 40px;
+    color: #eee;
+}
+
+.banner h1 {
     margin: 0;
     padding: 0;
 }
@@ -46,6 +54,18 @@
     width: 100%;
     height: 100%;
     margin: 0;
+}
+
+#yimby-logo {
+    background-color: rgba(50, 50, 50, 0.8);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#yimby-logo img {
+    margin-bottom: 20px;
 }
 
 #grow p {
